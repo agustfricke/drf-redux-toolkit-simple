@@ -15,7 +15,7 @@ const initialState = postsAdapter.getInitialState();
 export const extendedApiSlice = apiSlice.injectEndpoints({
     endpoints: builder => ({
         getPosts: builder.query({
-            query: () => '/posts/',
+            query: () => '/blogs/',
             // Usamos el transformResponse para agregar la fecha, reacciones y tambien para noramlizar los datos con el postsAdapter.setAll
             transformResponse: responseData => {
                 const loadedPosts = responseData.map( post => {
@@ -35,7 +35,7 @@ export const extendedApiSlice = apiSlice.injectEndpoints({
         }),
         addNewPost: builder.mutation({
             query: initialPost => ({
-                url: '/posts/',
+                url: '/blogs/',
                 method: 'POST',
                 body: { ...initialPost }
             }),
@@ -45,7 +45,7 @@ export const extendedApiSlice = apiSlice.injectEndpoints({
         }),
         updatePost: builder.mutation({
             query: initialPost => ({
-                url: `/posts/${initialPost.id}/`,
+                url: `/blogs/${initialPost.id}/`,
                 method: 'PUT',
                 body: { ...initialPost }
             }), 
@@ -55,7 +55,7 @@ export const extendedApiSlice = apiSlice.injectEndpoints({
         }), 
         deletePost: builder.mutation({
             query: ({ id }) => ({
-                url: `/posts/${id}/`,
+                url: `/blogs/${id}/`,
                 method: 'DELETE',
                 body: { id }
             }), 

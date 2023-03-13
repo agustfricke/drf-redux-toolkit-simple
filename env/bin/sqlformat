@@ -1,4 +1,4 @@
-#!/home/agust/Projects/CRUD/CRUD-Redux-DRF/env/bin/python3
+#!/home/agust/GitHub/CRUD-DRF-Redux-Toolkit/env/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
