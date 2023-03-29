@@ -14,7 +14,7 @@ FRONTEND
 - cd CRUD-DRF-Redux-Toolkit/frontend
 - npm i3- npm start
 
--- Give it a star ⭐
+## Give it a star ⭐
 
 ![Screenshot 2023-03-28 22-10-17](https://user-images.githubusercontent.com/110266171/228401235-960ebb50-b070-40fa-86d7-29d17be59db0.png)
 ![Screenshot 2023-03-28 22-09-50](https://user-images.githubusercontent.com/110266171/228401252-779854de-58ee-49c4-b4c5-d8a60840785a.png)
