@@ -2,15 +2,15 @@
 
 ⚡  Simple CRUD app with Redux Toolkit and Django Rest Framework, includes a neat interface using Tailwind css and alerts messages using the library React Hot Toast
 
-- install and use:
-### BACKEND
+### install and use:
+#### BACKEND
 - git clone https://github.com/agustfricke/CRUD-DRF-Redux-Toolkit.git
 - cd CRUD-DRF-Redux-Toolkit
 - Linux and Mac: python3 -m venv env
 - Linux and Mac: source env/bin/activate
 - pip install -r requirements.txt
 - python3 manage.py runserver
-### FRONTEND
+#### FRONTEND
 - cd CRUD-DRF-Redux-Toolkit/frontend
 - npm i3- npm start
 
