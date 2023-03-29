@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { selectPostById } from "../features/postsSlice";
 import { useParams, useNavigate } from "react-router-dom";
-import { useUpdatePostMutation, useDeletePostMutation } from "../features/postsSlice";
+import { useUpdatePostMutation } from "../features/postsSlice";
 import { useSelector } from "react-redux";
 import { AiFillPlusSquare } from "react-icons/ai";
 import toast from 'react-hot-toast';
@@ -48,7 +48,7 @@ const EditPost = () => {
     return (
 
         <form className='flex justify-center'>
-            <input value={body} className='rounded-lg p-1.5 m-5' onChange={(e) => setBody(e.target.value)} placeholder="Update Post"/>
+            <input value={body} className='rounded-lg p-1.5 m-5 outline-none' onChange={(e) => setBody(e.target.value)} placeholder="Update Post"/>
             <button type='button' className='text-white' onClick={onSavePost}><AiFillPlusSquare size={30}/></button>
         </form>
     )

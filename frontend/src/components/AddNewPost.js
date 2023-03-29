@@ -12,8 +12,6 @@ const AddNewPost = () => {
 
     const [body, setBody] = useState('')
 
-    const onBodyChange = e => setBody(e.target.value);
-
     const canSave = Boolean(body) && !isLoading;
 
     const success= () => toast.success('Post created!');
@@ -34,7 +32,7 @@ const AddNewPost = () => {
 
     return (
         <form className='flex justify-center'>
-            <input value={body} className='rounded-lg p-1.5 m-5' onChange={onBodyChange} placeholder="Add New Post"/>
+            <input value={body} className='rounded-lg p-1.5 m-5 outline-none' onChange={(e) => setBody(e.target.value)} placeholder="Add New Post"/>
             <button type='button' className='text-white' onClick={onSavePost}><AiFillPlusSquare size={30}/></button>
         </form>
     )
