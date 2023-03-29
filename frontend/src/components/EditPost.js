@@ -21,8 +21,6 @@ const EditPost = () => {
 
     const [body, setBody] = useState(post?.body)
     
-    const onBodyChange = e => setBody(e.target.value)
-
     const canSave = Boolean(body) && !isLoading
 
     const onSavePost = async () => {
@@ -50,7 +48,7 @@ const EditPost = () => {
     return (
 
         <form className='flex justify-center'>
-            <input value={body} className='rounded-lg p-1.5 m-5' onChange={onBodyChange} placeholder="Update Post"/>
+            <input value={body} className='rounded-lg p-1.5 m-5' onChange={(e) => setBody(e.target.value)} placeholder="Update Post"/>
             <button type='button' className='text-white' onClick={onSavePost}><AiFillPlusSquare size={30}/></button>
         </form>
     )
