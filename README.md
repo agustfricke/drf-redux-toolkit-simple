@@ -12,7 +12,8 @@
 - python3 manage.py runserver
 #### FRONTEND
 - cd CRUD-DRF-Redux-Toolkit/frontend
-- npm i3- npm start
+- npm i
+- npm start
 
 ## Give it a star ⭐
 
