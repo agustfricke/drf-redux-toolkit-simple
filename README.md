@@ -17,6 +17,6 @@
 
 ## Give it a star ⭐
 
-![Screenshot 2023-03-28 22-10-17](https://user-images.githubusercontent.com/110266171/228401235-960ebb50-b070-40fa-86d7-29d17be59db0.png)
-![Screenshot 2023-03-28 22-09-50](https://user-images.githubusercontent.com/110266171/228401252-779854de-58ee-49c4-b4c5-d8a60840785a.png)
-![Screenshot 2023-03-28 22-10-29](https://user-images.githubusercontent.com/110266171/228401261-94b538df-9538-4c23-80f8-95f529e1962f.png)
+![Screenshot 2023-03-28 22-55-10](https://user-images.githubusercontent.com/110266171/228406291-c8887b77-53a3-49b4-8e42-a7082429d20f.png)
+![Screenshot 2023-03-28 22-55-25](https://user-images.githubusercontent.com/110266171/228406302-22478a17-8981-455b-8333-57af1c30bd54.png)
+![Screenshot 2023-03-28 22-55-27](https://user-images.githubusercontent.com/110266171/228406313-9f1ad7b6-01df-4ad8-ac9d-d035f2c65e4e.png)
