@@ -1,6 +1,4 @@
-import TimeAgo from "./TimeAgo";
 import { Link } from 'react-router-dom';
-
 import { useSelector } from "react-redux";
 import { selectPostById } from "../features/postsSlice";
 import { AiFillDelete, AiFillEdit, AiFillEye } from "react-icons/ai";
@@ -37,7 +35,6 @@ const PostsExcerpt = ({ postId }) => {
                 <Link className="text-white m-3" to={`/post/${post.id}`}><AiFillEye size={30}/></Link>
                 <Link className="text-claro m-3" to={`/post/edit/${post.id}`}><AiFillEdit size={30}/></Link>
                 <button className="text-rojo mb-4 m-3"  type='button' onClick={onDeletePost}><AiFillDelete size={30}/></button>
-                <TimeAgo timestamp={post.date} />
             </div>
         </div>
         </>
