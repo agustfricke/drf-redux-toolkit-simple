@@ -13,7 +13,7 @@
 #### FRONTEND
 - cd CRUD-DRF-Redux-Toolkit/frontend
 - npm i
-- npm start
+- npm run dev
 
 ## Give it a star ⭐
 
